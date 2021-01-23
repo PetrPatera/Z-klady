@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MovieBook</title>
+</head>
+<body>
+        Název filmu: {{nazev_filmu}} <br>
+        Žánr: {{zanr}} <br>
+        Hodnocení: {{hodnoceni}}
+        Náš obrázek: <br>
+        {% load static %}
+        <img src="{% static "moviebook/obrazek.jpg" %}" alt="">
+</body>
+</html>
